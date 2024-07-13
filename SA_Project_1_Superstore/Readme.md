@@ -7,9 +7,9 @@
 2. Add Readme.md file with info about the project using VSCode (create branch before PR)
 
 ### Solution
-###### 1
+###### Task 1 
 - Repo "Project-1_Surfalytics_DEProject" was created without Readme.md file
-###### 2
+###### Task 2
 - create a folder and a file "Readme.md"
 - `git init` to start a process
 - `git remote add origin https://github.com/45825243/Project-1_Surfalytics_DEProject.git` to connect our VSCode to our repo on GitHub
@@ -27,11 +27,18 @@
 2. Ingest data into Azure Postgres (our Data Warehouse). Connect to PostgreSQL using DBeaver.
 
 ### Solution
-###### 1
+###### Task 1
 - `git clone <link>` we got Superstore dataset we'll work with
 - In VSCode create a folder "data" and put our dataset there
 - We have 3 .csv files. Rename them to Orders, People, Returns
-###### 2
+###### Task 2
+- Install DBeaver with default setting
+  - In connestion settings click on PostgreSQL, next we need to set up our connection details. This information was given by my supervisor
+  - Test connection shows details (successful/fail)
+- Create a new database (screenshot #1)
+- In this database create a new schema `STG`
+
+![Creating a new database in DBeaver](images\DBeaver_new_database.png)
 
 
 
