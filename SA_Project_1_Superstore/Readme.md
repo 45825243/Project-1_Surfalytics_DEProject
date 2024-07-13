@@ -38,7 +38,7 @@
 - Create a new database (screenshot #1)
 - In this database create a new schema `STG`
 
-![Creating a new database in DBeaver](images\DBeaver_new_database.jpg)
+![Creating a new database in DBeaver](images/DBeaver_new_database.jpg)
 
 
 
